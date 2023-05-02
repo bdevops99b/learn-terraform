@@ -94,7 +94,7 @@ resource "aws_instance" "redis" {
   tags = {
     Name = "redis"
   }
-
+}
   resource "aws_route53_record" "redis" {
     zone_id = "Z09749362E9LBLZIEGY8G"
     name    = "frontend-dev.pand4u.online"
