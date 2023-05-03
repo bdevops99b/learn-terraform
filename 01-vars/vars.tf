@@ -38,3 +38,5 @@ variable "sample_dict" {
 }
 
 # This is the most prefered list variable way when we declare the data
+
+variable "env" {}
