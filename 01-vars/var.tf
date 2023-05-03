@@ -11,5 +11,5 @@ output "sample_string" {
 # ${} is mandatory if we include the variable inside a string
 
 output "sample_string1" {
-  value = "value of sample_string= ${sample_string}"
+  value = "value of sample_string= ${var.sample_string}"
 }
