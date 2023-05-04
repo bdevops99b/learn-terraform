@@ -30,8 +30,8 @@ variable "sample_list" {
 #going to have separate name
 variable "sample_dict" {
   default = {
-    number1 = 100,
-    string1 = "hello",
+    number1 = 100
+    string1 = "hello"
     number2 = 123
     boolean = true
   }
