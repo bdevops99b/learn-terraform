@@ -1,2 +1,2 @@
 auto_num1=100
-env=testt
+env="test"
