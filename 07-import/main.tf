@@ -4,7 +4,7 @@ resource "aws_instance" "workstaion" {
   tags          = {
     "Name" = "workstation"
   }
+}
   output "private_ip" {
     value = aws_instance.workstaion.private_ip
   }
-}
