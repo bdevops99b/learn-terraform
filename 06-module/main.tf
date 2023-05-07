@@ -1,4 +1,8 @@
 module "sample" {
   source = "./module"
-  input= "xyz"
+  input= module.dummy.dummpy_output
+}
+
+module "dummy" {
+  source = "./dummy"
 }
