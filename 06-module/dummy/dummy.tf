@@ -1,3 +1,3 @@
 output "dummpy_output" {
-  value = "xyz"
+  value = "zomata"
 }
